@@ -1,0 +1,169 @@
+.card {
+    display: flex;
+    /* box-sizing: border-box; */
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 28rem;
+    /* height: 250px; */
+    border: 0.1px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-image: linear-gradient(to left, rgb(253, 246, 239), rgb(226, 242, 220));
+    color: black;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
+    transition: all 0.3s ease-in-out;
+
+    /* color: rgb(108, 190, 190); */
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.content {
+    position: relative;
+    box-sizing: border-box;
+    /* margin-top: 10px; */
+    border: 1px solid rgb(16, 15, 16);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+
+    background-color: white;
+    height: 70%;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+}
+
+/* .card>div {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 30px;
+
+} */
+
+.card_btn {
+
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    height: 35px;
+    font-size: 17px;
+    font-weight: 400;
+    /* background-color: white; */
+    border: none;
+    opacity: 0.8;
+    transition: all 0.5s ease-out;
+
+}
+
+.card_btn:hover {
+    font-weight: 500;
+    font-size: 19px;
+    opacity: 1;
+
+}
+
+.card_btn:active {
+    border: 1px solid black;
+}
+
+.title {
+
+    /* font-size: 17px; */
+    font-weight: 500;
+
+    /* font-family: sans; */
+
+}
+
+.description {
+    font-size: small;
+    overflow: hidden;
+    font-style: oblique;
+    font-weight: 200;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+    /* padding-left: 30px; */
+
+}
+
+.btn_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex: 0.4;
+}
+
+/* .btn_container > button{
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 35px;
+} */
+
+.complete_element {
+    width: 100%;
+    align-items: left;
+    font-size: 15px;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-weight: 50; */
+
+    text-align: left;
+    flex: 0.3;
+}
+
+.date {
+    width: 100%;
+    text-align: right;
+}
+
+.card_top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+
+
+.card_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.editInput{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+
+}
+.editInput:focus{
+    outline: none;
+}
+
+.titleInput {
+font-weight: 500;
+font-size: 19px;
+font-family: sans-serif;
+}
+
+.descriptionInput{
+  font-style: italic;
+}

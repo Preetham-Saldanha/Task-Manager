@@ -1,0 +1,47 @@
+.task{
+    
+    width: 60%;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: rgb(38, 143, 161);
+    
+
+}
+
+#task_form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+}
+
+#task_form>input{
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    /* margin-left: 10px; */
+}
+
+
+
+#description{
+    height: 100px;
+   
+}
+
+#date{
+ width: 100px;   
+}
+
+
+.task_btns{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
